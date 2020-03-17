@@ -1,0 +1,201 @@
+header .nav-link img{
+    width: auto;
+    height: 5rem;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+nav:hover{
+    box-shadow: 0px 0px 300px 122px rgba(0,0,0,0.45);
+}
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.first-footer.bg-light {
+    font-size: .9rem;
+    line-height: 2rem;
+}
+.footer ul li {
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer img.img-fluid {
+    width: auto;
+    height: 3rem;
+}
+.footer p {
+    font-size: 0.7rem;
+}
+.footer span.text-info {
+    font-size: 2rem;
+}
+.footer span.text-info:hover {
+    color: #0055ff !important;
+}
+.second-footer{
+    border-top: 19px solid #c5c4c4;
+}
+
+.printer-list ul li{
+    list-style: none;
+}
+.printer-list ul li a{
+    color: #0066c0;
+}
+.printer-list ul li a:hover{
+    color: #1b5587 !important;
+}
+.printer-list li.col-md-4.i-p,.printer-list li.col-md-4.l-p {
+    line-height: 2rem;
+    font-size: .9rem;
+}
+.inkjet-printer-list.p-2,.laser-printer-list.p-2 {
+    border-top: 4px solid grey;
+}
+.brand-section .brand-img img.img-fluid {
+    height: 6rem;
+    padding: 7px;
+}
+.brand-img .col-md-3{
+    position: relative;
+}
+.b-p{
+    position: absolute;
+    bottom: 35%;
+    left: 40%;
+    display: none;
+    width: 5rem;
+}
+.brand-img .col-md-3:hover .img-fluid{
+    opacity: 0.1;
+    transition: .6s;
+}
+.brand-img .col-md-3:hover .b-p{
+    display: inline-block;
+    opacity: 1;
+    transition: .5s;
+}
+.service-section p {
+    font-size: .8rem;
+}
+.s-r-1.p-4 {
+    border-top: 2px solid gray;
+}
+.s-r-2.p-4 {
+    border-top: 2px solid gray;
+}
+.s-r-2 span {
+    font-size: 4rem;
+    color:#118dc7;
+}
+/*shorif vu csss*/
+*,*::after,*:before{
+    box-sizing: border-box;
+}
+/*style for cartridge printers aria*/
+
+
+
+#cartridgesPrinters{
+    background-color: #FAFAFA;
+}
+#cartridgesPrinters p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333333;
+    font-weight: 400;
+}
+#cartridgesPrinters a{
+    color: #0066c0;
+    font-size: 12px;
+    font-weight: 600;
+}
+h5{
+    font-weight: 600;
+    color: #000000;
+}
+hr{
+    color: #999999;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: #4FBCEF;
+}
+#cartridgesPrinters .col-sm-6:nth-child(2){
+    background-color: #ffffff; !important;
+    border: 1px solid #EDEDED;
+}
+.col-sm-6 h4{
+    background-color: #4FBCEF;
+    margin: 0;
+    border-bottom: 2px solid #999999;
+}
+.row .col-9 p{
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+.row .col-9 p span{
+    color: #999999 !important;
+    font-size: 12px !important;
+    font-weight: normal; !important;
+}
+#cartridgesPrinters .container:first-child{
+    border-top: 5px solid #999999;
+    padding-bottom: 40px;
+}
+/*style for customer service*/
+#customerService{
+    background-color: #FAFAFA;
+}
+#customerService .container h3{
+    background-color: #4FBCEF;
+    color: #ffffff;
+}
+#customerService p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333333;
+    font-weight: 400;
+}
+.fa-check{
+    color: #4FBCEF;
+}
+.feedback{
+    background-color: #F4F4F4;
+    padding: 40px;
+    border: 1px solid #BBBBBB;
+}
+.feedback .form-control{
+    line-height: 0.5 !important;
+}
+.btn-info{
+    background-color: #BBBBBB !important;
+}
+.orderNow h5 a{
+    color: #000000 !important;
+}
+.s-p-2 {
+    border-top: 5px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
