@@ -1,0 +1,26 @@
+@media only screen and (max-width: 415px) {
+	*{
+		overflow-x: hidden;
+	}
+	img.img-fluid.src-logo {
+		position: absolute;
+		top: -1rem;
+		right: -2rem;
+		height: 7rem;
+		}
+		.search-box.bg-light.text-center.p-4.m-5 {
+			margin: 0px !important;
+			padding: 0px !important;
+		}
+
+		.search-box h4.text-dark {
+			font-size: 1rem;
+		}
+
+		.search-box input.form-control {
+			width: 13rem !important;
+		}
+		.search-box span.text-dark.btn.btn-light.form-control {
+			display: none;
+		}
+	}
